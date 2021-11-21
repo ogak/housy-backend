@@ -1,4 +1,4 @@
-FROM node:dubnium-alpine3.11
+FROM node:10.24.1-alpine3.11
 
 WORKDIR /housy-backend
 COPY package*.json ./
